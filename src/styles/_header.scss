@@ -4,9 +4,9 @@
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1;
     background-color: variaveis.$corDeFundo;
     transition: background-color .5s ease;
-    z-index: 1;
 
     &--is-hidden {
         background-color: transparent;
